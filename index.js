@@ -11,7 +11,7 @@ const serverSocketIo = express();
 const serverHttp = require('http').Server(serverSocketIo);
 const io = require('socket.io')(serverHttp);
 serverHttp.listen(3001, () =>{
-console.log('***** SocketIO port: 3001')
+console.log('***** SocketIO port: 3002')
     
     })
 
